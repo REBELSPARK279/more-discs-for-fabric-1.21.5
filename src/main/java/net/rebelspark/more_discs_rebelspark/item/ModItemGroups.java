@@ -1,0 +1,39 @@
+package net.rebelspark.more_discs_rebelspark.item;
+
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.rebelspark.more_discs_rebelspark.MoreDiscs;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
+import net.minecraft.text.Text;
+import net.minecraft.util.Identifier;
+
+public class ModItemGroups {
+    public static final ItemGroup MOD_DISCS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(MoreDiscs.MOD_ID, "mod_discs"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.A_FAMILIAR_ROOM_MUSIC_DISC))
+                    .displayName(Text.translatable("itemgroup.more_discs_rebelspark.mod_discs"))
+                    .entries((displayContext, entries) -> {
+
+                        entries.add(ModItems.A_FAMILIAR_ROOM_MUSIC_DISC);
+                        entries.add(ModItems.RAW_PINK_GARNET);
+
+                    }).build());
+
+    public static final ItemGroup MOD_DISC_FRAGS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(MoreDiscs.MOD_ID, "mod_disc_frags"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.A_FAMILIAR_ROOM_MUSIC_DISC))
+                    .displayName(Text.translatable("itemgroup.more_discs_rebelspark.mod_disc_frags"))
+                    .entries((displayContext, entries) -> {
+
+                        entries.add(ModItems.RAW_PINK_GARNET);
+
+                    }).build());
+
+
+
+    public static void registerItemGroups() {
+        MoreDiscs.LOGGER.info("Registering Item Groups for " + MoreDiscs.MOD_ID);
+    }
+}
