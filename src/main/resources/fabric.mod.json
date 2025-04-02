@@ -19,7 +19,7 @@
 			"net.rebelspark.more_discs_rebelspark.MoreDiscs"
 		],
 		"fabric-datagen": [
-			"net.rebelspark.more_discs_rebelspark.MoreDiscs"
+			"net.rebelspark.more_discs_rebelspark.MoreDiscsDataGenerator"
 		],
 		"client": [
 			"net.rebelspark.more_discs_rebelspark.MoreDiscsClient"

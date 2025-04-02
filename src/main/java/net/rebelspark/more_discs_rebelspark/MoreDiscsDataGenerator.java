@@ -10,6 +10,6 @@ public class MoreDiscsDataGenerator implements DataGeneratorEntrypoint {
     public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
         FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 
-        pack.addProvider(ModItemTagProvider::new);
+       // pack.addProvider(ModItemTagProvider::new);
     }
 }
