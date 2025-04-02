@@ -24,12 +24,11 @@ public class ModItems {
             new Item(new Item.Settings()
                     .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MoreDiscs.MOD_ID, "a_familiar_room_music_disc")))
                     .jukeboxPlayable(ModSounds.A_FAMILIAR_ROOM_KEY).maxCount(1))//{
-       // @Override
+        //@Override
        // public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
-           // tooltip.add(Text.translatable("tooltip.more_discs_rebelspark.epic_disc"));
-           // super.appendTooltip(stack, context, tooltip, type);
-           // }
-       // }
+         //   tooltip.add(Text.translatable("tooltip.more_discs_rebelspark.epic_disc"));
+         //   super.appendTooltip(stack, context, tooltip, type);
+         //   }}
     );
     public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new Item(new Item.Settings()
             .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MoreDiscs.MOD_ID, "raw_pink_garnet")))));
