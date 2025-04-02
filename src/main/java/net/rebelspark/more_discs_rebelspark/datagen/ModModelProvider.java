@@ -6,12 +6,7 @@ import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.client.data.BlockStateModelGenerator;
 import net.minecraft.client.data.ItemModelGenerator;
 import net.minecraft.client.data.Models;
-import net.rebelspark.more_discs_rebelspark.MoreDiscs;
-import net.rebelspark.more_discs_rebelspark.block.ModBlocks;
 import net.rebelspark.more_discs_rebelspark.item.ModItems;
-import net.minecraft.client.*;
-import net.minecraft.entity.EquipmentSlot;
-import net.minecraft.util.Identifier;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -27,9 +22,34 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
 
-        itemModelGenerator.register(ModItems.RAW_PINK_GARNET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DOG_DISC_FRAGMENT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MOOG_CITY2_DISC_FRAGMENT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MINECRAFT_DISC_FRAGMENT, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.EMPTY_DISC_CORE, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.A_FAMILIAR_ROOM_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ALPHA_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ARIA_MATH_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BACK_ON_DASH_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BEGINNING_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BEGINNING2_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BIOME_FEST_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BLIND_SPOTS_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CASTLEMANIA_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CASTLEMANIA2_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CHRIS_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CLARK_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DANNY_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DEATH_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DOG_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DOOR_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DREITON_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DRY_HANDS_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.EXCUSE_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.EXECUTIONER_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FLAKE_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FLOATING_TREES_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HAGGSTROM_MUSIC_DISC, Models.GENERATED);
     }
 }

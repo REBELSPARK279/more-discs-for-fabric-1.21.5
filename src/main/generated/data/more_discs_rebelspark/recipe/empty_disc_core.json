@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "R": "minecraft:redstone"
+  },
+  "pattern": [
+    " R ",
+    "RIR",
+    " R "
+  ],
+  "result": {
+    "count": 1,
+    "id": "more_discs_rebelspark:empty_disc_core"
+  }
+}

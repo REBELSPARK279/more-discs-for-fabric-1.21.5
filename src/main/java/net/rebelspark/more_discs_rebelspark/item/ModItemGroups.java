@@ -17,7 +17,29 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
 
                         entries.add(ModItems.A_FAMILIAR_ROOM_MUSIC_DISC);
-                        entries.add(ModItems.RAW_PINK_GARNET);
+                        entries.add(ModItems.ALPHA_MUSIC_DISC);
+                        entries.add(ModItems.ARIA_MATH_MUSIC_DISC);
+                        entries.add(ModItems.BACK_ON_DASH_MUSIC_DISC);
+                        entries.add(ModItems.BEGINNING_MUSIC_DISC);
+                        entries.add(ModItems.BEGINNING2_MUSIC_DISC);
+                        entries.add(ModItems.BIOME_FEST_MUSIC_DISC);
+                        entries.add(ModItems.BLIND_SPOTS_MUSIC_DISC);
+                        entries.add(ModItems.CASTLEMANIA_MUSIC_DISC);
+                        entries.add(ModItems.CASTLEMANIA2_MUSIC_DISC);
+                        entries.add(ModItems.CHRIS_MUSIC_DISC);
+                        entries.add(ModItems.CLARK_MUSIC_DISC);
+                        entries.add(ModItems.DANNY_MUSIC_DISC);
+                        entries.add(ModItems.DEATH_MUSIC_DISC);
+                        entries.add(ModItems.DOG_MUSIC_DISC);
+                        entries.add(ModItems.DOOR_MUSIC_DISC);
+                        entries.add(ModItems.DREITON_MUSIC_DISC);
+                        entries.add(ModItems.DRY_HANDS_MUSIC_DISC);
+                        entries.add(ModItems.EXCUSE_MUSIC_DISC);
+                        entries.add(ModItems.EXECUTIONER_MUSIC_DISC);
+                        entries.add(ModItems.FLAKE_MUSIC_DISC);
+                        entries.add(ModItems.FLOATING_TREES_MUSIC_DISC);
+                        entries.add(ModItems.HAGGSTROM_MUSIC_DISC);
+
 
                     }).build());
 
@@ -27,7 +49,7 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.more_discs_rebelspark.mod_disc_frags"))
                     .entries((displayContext, entries) -> {
 
-                        entries.add(ModItems.RAW_PINK_GARNET);
+                        entries.add(ModItems.DOG_DISC_FRAGMENT);
 
                     }).build());
 
