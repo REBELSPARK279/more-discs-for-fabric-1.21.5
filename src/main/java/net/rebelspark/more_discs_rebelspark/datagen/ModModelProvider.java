@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.client.data.BlockStateModelGenerator;
 import net.minecraft.client.data.ItemModelGenerator;
+import net.minecraft.client.data.Model;
 import net.minecraft.client.data.Models;
 import net.rebelspark.more_discs_rebelspark.item.ModItems;
 
@@ -51,5 +52,12 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.FLAKE_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.FLOATING_TREES_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.HAGGSTROM_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HARDCOREMINECRAFT_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HAUNT_MUSKIE_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HEADBUG_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.INVINCIBLE_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.KEY_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.KI_MUSIC_DISC);
+        itemModelGenerator.register(ModItems.LIVING_MICE_MUSIC_DISC);
     }
 }

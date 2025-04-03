@@ -39,6 +39,13 @@ public class ModItemGroups {
                         entries.add(ModItems.FLAKE_MUSIC_DISC);
                         entries.add(ModItems.FLOATING_TREES_MUSIC_DISC);
                         entries.add(ModItems.HAGGSTROM_MUSIC_DISC);
+                        entries.add(ModItems.HARDCOREMINECRAFT_MUSIC_DISC);
+                        entries.add(ModItems.HAUNT_MUSKIE_MUSIC_DISC);
+                        entries.add(ModItems.HEADBUG_MUSIC_DISC);
+                        entries.add(ModItems.INVINCIBLE_MUSIC_DISC);
+                        entries.add(ModItems.KEY_MUSIC_DISC);
+                        entries.add(ModItems.KI_MUSIC_DISC);
+                        entries.add(ModItems.LIVING_MICE_MUSIC_DISC);
 
 
                     }).build());
