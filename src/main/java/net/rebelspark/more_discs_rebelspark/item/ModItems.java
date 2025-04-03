@@ -28,7 +28,7 @@ public class ModItems {
    //DISC CORE
 
     public static final Item EMPTY_DISC_CORE = registerItem("empty_disc_core", new Item(new Item.Settings()
-            .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MoreDiscs.MOD_ID, "empty_disc_core"))).maxCount(8)));
+            .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MoreDiscs.MOD_ID, "empty_disc_core"))).maxCount(16)));
 
 //A
     public static final Item A_FAMILIAR_ROOM_MUSIC_DISC = registerItem("a_familiar_room_music_disc",
