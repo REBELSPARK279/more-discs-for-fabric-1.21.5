@@ -57,7 +57,16 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.HEADBUG_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.INVINCIBLE_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.KEY_MUSIC_DISC, Models.GENERATED);
-        itemModelGenerator.register(ModItems.KI_MUSIC_DISC);
-        itemModelGenerator.register(ModItems.LIVING_MICE_MUSIC_DISC);
+        itemModelGenerator.register(ModItems.KI_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LIVING_MICE_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MICE_ON_VENUS_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MINECRAFT_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MOOG_CITY_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MOOG_CITY2_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MUTATION_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SUBWOOFER_LULLABY_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SWEDEN_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TASWELL_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.WET_HANDS_MUSIC_DISC, Models.GENERATED);
     }
 }

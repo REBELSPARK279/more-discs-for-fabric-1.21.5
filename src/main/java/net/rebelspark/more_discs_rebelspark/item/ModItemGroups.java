@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 public class ModItemGroups {
     public static final ItemGroup MOD_DISCS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(MoreDiscs.MOD_ID, "mod_discs"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.A_FAMILIAR_ROOM_MUSIC_DISC))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.DREITON_MUSIC_DISC))
                     .displayName(Text.translatable("itemgroup.more_discs_rebelspark.mod_discs"))
                     .entries((displayContext, entries) -> {
 
@@ -46,23 +46,34 @@ public class ModItemGroups {
                         entries.add(ModItems.KEY_MUSIC_DISC);
                         entries.add(ModItems.KI_MUSIC_DISC);
                         entries.add(ModItems.LIVING_MICE_MUSIC_DISC);
-
+                        entries.add(ModItems.MICE_ON_VENUS_MUSIC_DISC);
+                        entries.add(ModItems.MINECRAFT_MUSIC_DISC);
+                        entries.add(ModItems.MOOG_CITY_MUSIC_DISC);
+                        entries.add(ModItems.MOOG_CITY2_MUSIC_DISC);
+                        entries.add(ModItems.MUTATION_MUSIC_DISC);
+                        entries.add(ModItems.SUBWOOFER_LULLABY_MUSIC_DISC);
+                        entries.add(ModItems.SWEDEN_MUSIC_DISC);
+                        entries.add(ModItems.TASWELL_MUSIC_DISC);
+                        entries.add(ModItems.WET_HANDS_MUSIC_DISC);
+                        entries.add(ModItems.EMPTY_DISC_CORE);
 
                     }).build());
 
     public static final ItemGroup MOD_DISC_FRAGS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(MoreDiscs.MOD_ID, "mod_disc_frags"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.A_FAMILIAR_ROOM_MUSIC_DISC))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.DOG_DISC_FRAGMENT))
                     .displayName(Text.translatable("itemgroup.more_discs_rebelspark.mod_disc_frags"))
                     .entries((displayContext, entries) -> {
 
                         entries.add(ModItems.DOG_DISC_FRAGMENT);
+                        entries.add(ModItems.MINECRAFT_DISC_FRAGMENT);
+                        entries.add(ModItems.MOOG_CITY2_DISC_FRAGMENT);
 
                     }).build());
 
 
 
     public static void registerItemGroups() {
-        MoreDiscs.LOGGER.info("Registering Item Groups for " + MoreDiscs.MOD_ID);
+        MoreDiscs.LOGGER.info("Creative mode tabs for " + MoreDiscs.MOD_ID + " are being registered!");
     }
 }

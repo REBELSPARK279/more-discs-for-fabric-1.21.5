@@ -181,6 +181,6 @@ public class ModSounds {
     }
 
     public static void registerSounds() {
-        MoreDiscs.LOGGER.info("Registering Mod Sounds for " + MoreDiscs.MOD_ID);
+        MoreDiscs.LOGGER.info("Mod Sounds for " + MoreDiscs.MOD_ID + " are being registered.");
     }
 }

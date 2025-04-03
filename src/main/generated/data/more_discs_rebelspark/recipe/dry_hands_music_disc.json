@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "more_discs_rebelspark:empty_disc_core",
+    "F": "minecraft:flint",
+    "S": "minecraft:sand"
+  },
+  "pattern": [
+    "FFF",
+    "SCS",
+    "FFF"
+  ],
+  "result": {
+    "count": 1,
+    "id": "more_discs_rebelspark:dry_hands_music_disc"
+  }
+}

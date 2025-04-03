@@ -37,7 +37,7 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks() {
-        MoreDiscs.LOGGER.info("Registering Mod Blocks for " + MoreDiscs.MOD_ID);
+        MoreDiscs.LOGGER.info("Mod Blocks for " + MoreDiscs.MOD_ID + " are being registered.");
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             //entries.add(ModBlocks.PINK_GARNET_BLOCK);
