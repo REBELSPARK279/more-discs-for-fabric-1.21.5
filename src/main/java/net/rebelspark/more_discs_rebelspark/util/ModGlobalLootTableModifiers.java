@@ -147,19 +147,19 @@ public class ModGlobalLootTableModifiers {
            //DANNY
 
             if(ANCIENT_CITY.equals(key.getValue())) { LootPool.Builder poolBuilder = LootPool.builder() .rolls(ConstantLootNumberProvider.create(1))
-                    .conditionally(RandomChanceLootCondition.builder(0.12f))
+                    .conditionally(RandomChanceLootCondition.builder(0.032f))
                     .with(ItemEntry.builder(ModItems.DANNY_MUSIC_DISC))
                     .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build()); tableBuilder.pool(poolBuilder.build());
             }
 
             if(STRONG_XING.equals(key.getValue())) { LootPool.Builder poolBuilder = LootPool.builder() .rolls(ConstantLootNumberProvider.create(1))
-                    .conditionally(RandomChanceLootCondition.builder(0.125f))
+                    .conditionally(RandomChanceLootCondition.builder(0.0052f))
                     .with(ItemEntry.builder(ModItems.DANNY_MUSIC_DISC))
                     .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build()); tableBuilder.pool(poolBuilder.build());
             }
 
             if(END_CITY_TREASURE.equals(key.getValue())) { LootPool.Builder poolBuilder = LootPool.builder() .rolls(ConstantLootNumberProvider.create(1))
-                    .conditionally(RandomChanceLootCondition.builder(0.13f))
+                    .conditionally(RandomChanceLootCondition.builder(0.03f))
                     .with(ItemEntry.builder(ModItems.DANNY_MUSIC_DISC))
                     .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build()); tableBuilder.pool(poolBuilder.build());
             }
@@ -167,13 +167,13 @@ public class ModGlobalLootTableModifiers {
             //DOG
 
             if(MANSION.equals(key.getValue())) { LootPool.Builder poolBuilder = LootPool.builder() .rolls(ConstantLootNumberProvider.create(1))
-                    .conditionally(RandomChanceLootCondition.builder(0.12f))
+                    .conditionally(RandomChanceLootCondition.builder(0.0279f))
                     .with(ItemEntry.builder(ModItems.DOG_MUSIC_DISC))
                     .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build()); tableBuilder.pool(poolBuilder.build());
             }
 
             if(SKELETON.equals(key.getValue())) { LootPool.Builder poolBuilder = LootPool.builder() .rolls(ConstantLootNumberProvider.create(1))
-                    .conditionally(RandomChanceLootCondition.builder(0.015f))
+                    .conditionally(RandomChanceLootCondition.builder(0.0096f))
                     .with(ItemEntry.builder(ModItems.DOG_DISC_FRAGMENT))
                     .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build()); tableBuilder.pool(poolBuilder.build());
             }
@@ -247,7 +247,7 @@ public class ModGlobalLootTableModifiers {
             //MINECRAFT
 
             if(GRASS_BLOCK.equals(key.getValue())) { LootPool.Builder poolBuilder = LootPool.builder() .rolls(ConstantLootNumberProvider.create(1))
-                    .conditionally(RandomChanceLootCondition.builder(0.005f))
+                    .conditionally(RandomChanceLootCondition.builder(0.00087f))
                     .with(ItemEntry.builder(ModItems.MINECRAFT_DISC_FRAGMENT))
                     .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build()); tableBuilder.pool(poolBuilder.build());
             }
@@ -255,19 +255,19 @@ public class ModGlobalLootTableModifiers {
             //MOOG CITY 2
 
             if(ANCIENT_CITY.equals(key.getValue())) { LootPool.Builder poolBuilder = LootPool.builder() .rolls(ConstantLootNumberProvider.create(1))
-                    .conditionally(RandomChanceLootCondition.builder(0.142f))
+                    .conditionally(RandomChanceLootCondition.builder(0.01f))
                     .with(ItemEntry.builder(ModItems.MOOG_CITY2_MUSIC_DISC))
                     .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build()); tableBuilder.pool(poolBuilder.build());
             }
 
             if(STONE.equals(key.getValue())) { LootPool.Builder poolBuilder = LootPool.builder() .rolls(ConstantLootNumberProvider.create(1))
-                    .conditionally(RandomChanceLootCondition.builder(0.0025f))
+                    .conditionally(RandomChanceLootCondition.builder(0.00065f))
                     .with(ItemEntry.builder(ModItems.MOOG_CITY2_DISC_FRAGMENT))
                     .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build()); tableBuilder.pool(poolBuilder.build());
             }
 
             if(IRON_GOLEM.equals(key.getValue())) { LootPool.Builder poolBuilder = LootPool.builder() .rolls(ConstantLootNumberProvider.create(1))
-                    .conditionally(RandomChanceLootCondition.builder(0.02f))
+                    .conditionally(RandomChanceLootCondition.builder(0.005f))
                     .with(ItemEntry.builder(ModItems.MOOG_CITY2_DISC_FRAGMENT))
                     .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build()); tableBuilder.pool(poolBuilder.build());
             }
