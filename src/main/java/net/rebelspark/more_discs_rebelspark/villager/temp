@@ -1,0 +1,122 @@
+
+
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
+factories.add((entity, random) -> new TradeOffer(
+	new TradedItem(
