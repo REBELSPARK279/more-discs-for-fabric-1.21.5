@@ -262,6 +262,9 @@ public class MoreDiscs implements ModInitializer {
 					new ItemStack(ModItems.EXECUTIONER_MUSIC_DISC, 1), 10, 35, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, epic5price),
+					new ItemStack(ModItems.A_FAMILIAR_ROOM_MUSIC_DISC, 1), 10, 40, 0.07f));
+			factories.add((entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, epic5price),
 					new ItemStack(ModItems.BIOME_FEST_MUSIC_DISC, 1), 10, 40, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, epic5price),
