@@ -2,8 +2,15 @@ Update 1.1 for fabric 1.21.5 changelog
 
 Added 0 discs
 
+Misc changes:
+
+Added all common and uncommmon discs to creeper's drop when killed by a skeleton to match forge.
+
 --BUGFIXES--
 
 Fixed Door disc not being traded at disc jockey level 2
 Fixed A Familiar Room disc not being villager tradeable
 Fixed Excuse disc not being traded by wandering trader and villager at levels 1 and 2
+Fixed Clark disc not being villager tradeable
+Fixed Flake disc not being villager tradeable
+Fixed Key disc not being villager or wandering trader tradeable
