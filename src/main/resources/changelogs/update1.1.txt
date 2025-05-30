@@ -1,0 +1,9 @@
+Update 1.1 for fabric 1.21.5 changelog
+
+Added 0 discs
+
+--BUGFIXES--
+
+Fixed Door disc not being traded at disc jockey level 2
+Fixed A Familiar Room disc not being villager tradeable
+Fixed Excuse disc not being traded by wandering trader and villager at levels 1 and 2

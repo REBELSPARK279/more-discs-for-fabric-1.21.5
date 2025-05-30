@@ -75,6 +75,9 @@ public class MoreDiscs implements ModInitializer {
 					new ItemStack(ModItems.DRY_HANDS_MUSIC_DISC, 1), 10, 4, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, common1price),
+					new ItemStack(ModItems.EXCUSE_MUSIC_DISC, 1), 10, 4, 0.07f));
+			factories.add((entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, common1price),
 					new ItemStack(ModItems.FLOATING_TREES_MUSIC_DISC, 1), 10, 4, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, common1price),
@@ -100,6 +103,9 @@ public class MoreDiscs implements ModInitializer {
 					new ItemStack(ModItems.DRY_HANDS_MUSIC_DISC, 1), 10, 8, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, common2price),
+					new ItemStack(ModItems.EXCUSE_MUSIC_DISC, 1), 10, 8, 0.07f));
+			factories.add((entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, common2price),
 					new ItemStack(ModItems.FLOATING_TREES_MUSIC_DISC, 1), 10, 8, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, common2price),
@@ -122,6 +128,9 @@ public class MoreDiscs implements ModInitializer {
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, uncommon2price),
 					new ItemStack(ModItems.BLIND_SPOTS_MUSIC_DISC, 1), 10, 10, 0.07f));
+			factories.add((entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, uncommon2price),
+					new ItemStack(ModItems.DOOR_MUSIC_DISC, 1), 10, 8, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, uncommon2price),
 					new ItemStack(ModItems.LIVING_MICE_MUSIC_DISC, 1), 10, 10, 0.07f));
@@ -310,6 +319,9 @@ public class MoreDiscs implements ModInitializer {
 			factories.addAll(Identifier.of(MoreDiscs.MOD_ID, "blind_spots"), (entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, 14),
 					new ItemStack(ModItems.BLIND_SPOTS_MUSIC_DISC, 1), 3, 4, 0.25f));
+			factories.addAll(Identifier.of(MoreDiscs.MOD_ID, "excuse"), (entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, 14),
+					new ItemStack(ModItems.EXCUSE_MUSIC_DISC, 1), 3, 4, 0.25f));
 			factories.addAll(Identifier.of(MoreDiscs.MOD_ID, "door"), (entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, 14),
 					new ItemStack(ModItems.DOOR_MUSIC_DISC, 1), 3,4,0.25f));

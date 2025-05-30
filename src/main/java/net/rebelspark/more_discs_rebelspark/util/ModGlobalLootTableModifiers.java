@@ -86,7 +86,7 @@ public class ModGlobalLootTableModifiers {
             //BIOME FEST
 
             if(MOOSHROOM.equals(key.getValue())) { LootPool.Builder poolBuilder = LootPool.builder() .rolls(ConstantLootNumberProvider.create(1))
-                    .conditionally(RandomChanceLootCondition.builder(0.1575f))
+                    .conditionally(RandomChanceLootCondition.builder(0.015f))
                     .with(ItemEntry.builder(ModItems.BIOME_FEST_MUSIC_DISC))
                     .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build()); tableBuilder.pool(poolBuilder.build());
             }
@@ -263,7 +263,7 @@ public class ModGlobalLootTableModifiers {
 
             if(ANCIENT_CITY.equals(key.getValue())) { LootPool.Builder poolBuilder = LootPool.builder() .rolls(ConstantLootNumberProvider.create(1))
                     .conditionally(RandomChanceLootCondition.builder(0.012f))
-                    .with(ItemEntry.builder(ModItems.MOOG_CITY2_MUSIC_DISC))
+                    .with(ItemEntry.builder(ModItems.MOOG_CITY2_DISC_FRAGMENT))
                     .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build()); tableBuilder.pool(poolBuilder.build());
             }
 
@@ -275,7 +275,7 @@ public class ModGlobalLootTableModifiers {
 
             if(IRON_GOLEM.equals(key.getValue())) { LootPool.Builder poolBuilder = LootPool.builder() .rolls(ConstantLootNumberProvider.create(1))
                     .conditionally(RandomChanceLootCondition.builder(0.0047f))
-                    .with(ItemEntry.builder(ModItems.MOOG_CITY2_DISC_FRAGMENT))
+                    .with(ItemEntry.builder(ModItems.MOOG_CITY2_MUSIC_DISC))
                     .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build()); tableBuilder.pool(poolBuilder.build());
             }
 
