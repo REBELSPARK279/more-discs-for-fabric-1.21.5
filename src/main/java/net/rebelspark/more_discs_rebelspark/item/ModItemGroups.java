@@ -51,6 +51,7 @@ public class ModItemGroups {
                         entries.add(ModItems.MOOG_CITY_MUSIC_DISC);
                         entries.add(ModItems.MOOG_CITY2_MUSIC_DISC);
                         entries.add(ModItems.MUTATION_MUSIC_DISC);
+                        entries.add(ModItems.REVENGE_MUSIC_DISC);
                         entries.add(ModItems.SUBWOOFER_LULLABY_MUSIC_DISC);
                         entries.add(ModItems.SWEDEN_MUSIC_DISC);
                         entries.add(ModItems.TASWELL_MUSIC_DISC);

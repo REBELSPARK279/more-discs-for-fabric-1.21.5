@@ -314,6 +314,15 @@
     ]
   },
 
+  "revenge": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:revenge",
+        "stream": true
+      }
+    ]
+  },
+
   "subwoofer_lullaby": {
     "sounds": [
       {

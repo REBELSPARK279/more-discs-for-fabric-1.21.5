@@ -15,10 +15,7 @@ public class ModModelProvider extends FabricModelProvider {
     }
 
     @Override
-    public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-
-
-      }
+    public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {}
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
@@ -64,6 +61,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.MOOG_CITY_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.MOOG_CITY2_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.MUTATION_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.REVENGE_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.SUBWOOFER_LULLABY_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.SWEDEN_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.TASWELL_MUSIC_DISC, Models.GENERATED);

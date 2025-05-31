@@ -154,6 +154,10 @@ public class ModSounds {
     public static final RegistryKey<JukeboxSong> MUTATION_KEY =
             RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(MoreDiscs.MOD_ID, "mutation"));
 
+    public static final SoundEvent REVENGE = registerSoundEvent("revenge");
+    public static final RegistryKey<JukeboxSong> REVENGE_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(MoreDiscs.MOD_ID, "revenge"));
+
     public static final SoundEvent SUBWOOFER_LULLABY = registerSoundEvent("subwoofer_lullaby");
     public static final RegistryKey<JukeboxSong> SUBWOOFER_LULLABY_KEY =
             RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(MoreDiscs.MOD_ID, "subwoofer_lullaby"));

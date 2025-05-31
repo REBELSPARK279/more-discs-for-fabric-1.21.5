@@ -312,6 +312,14 @@ public class ModItems {
                     super.appendTooltip(stack, context, displayComponent, textConsumer, type);
                     textConsumer.accept(Text.translatable("tooltip.more_discs_rebelspark.uncommon_disc"));}});
 
+    public static final Item REVENGE_MUSIC_DISC = registerItem("revenge_music_disc",
+            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MoreDiscs.MOD_ID,
+                    "revenge_music_disc"))).jukeboxPlayable(ModSounds.REVENGE_KEY).maxCount(1)) {
+                @Override public void appendTooltip(ItemStack stack, TooltipContext context,
+                                                    TooltipDisplayComponent displayComponent, Consumer<Text> textConsumer, TooltipType type) {
+                    super.appendTooltip(stack, context, displayComponent, textConsumer, type);
+                    textConsumer.accept(Text.translatable("tooltip.more_discs_rebelspark.legendary_disc"));}});
+
     public static final Item SUBWOOFER_LULLABY_MUSIC_DISC = registerItem("subwoofer_lullaby_music_disc",
             new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MoreDiscs.MOD_ID,
                     "subwoofer_lullaby_music_disc"))).jukeboxPlayable(ModSounds.SUBWOOFER_LULLABY_KEY).maxCount(1)) {
